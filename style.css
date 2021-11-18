@@ -1,0 +1,19 @@
+h1{
+    color: green;
+}
+p{
+    font-size: 33px;
+    font-family: serif;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: line-through;
+    text-align: left ;
+    text-transform: uppercase;
+    background-color: tomato;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    text-decoration-line: overline;
+    text-decoration-style: double;
+    letter-spacing: 10px;
+
+}
