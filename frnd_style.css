@@ -1,0 +1,147 @@
+.background-image {
+    background-image: url(https://cdn.wallpapersafari.com/78/24/N6tf9W.jpg);
+    /* border-style: inset; */
+    background-size: 100%;
+  }
+  .border-style {
+    margin: 0%;
+    border: 10px groove yellow;
+    width: 98.5%;
+    height: 1900px;
+  }
+  .first-container {
+    /* border: 5px solid black; */
+    height: 200px;
+    display: flex;
+    font-size: 30px;
+    font-style: italic;
+    /* justify-content: center; */
+  }
+  .container-item {
+    border: 7px solid rgb(207, 11, 11);
+    margin: 20px;
+    /* padding: 10px; */
+    border-radius: 45px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+  .item-left {
+    padding: 10px 10px 30px;
+    height: 80px;
+    width: 700px;
+    text-align: center;
+  }
+  .item-mid {
+    margin-top: 29px;
+    margin-left: -150px;
+    /* margin-right: 100; */
+    text-align: center;
+    padding: 20px 20px 5px 200px;
+    height: 25px;
+    width: 400px;
+    font-size: 20px;
+  }
+  .item-right {
+    /* margin-left: px; */
+    line-height: 50px;
+    /* margin-left: 150px; */
+    margin-right: 5px;
+    padding: 5px 60px;
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
+    /* padding: ; */
+  }
+  .second-container {
+    /* border: 5px solid black; */
+    width: 99.3%;
+    display: flex;
+    height: 8\600px;
+  }
+  .circle-offer {
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 50px;
+    width: 40%;
+    /* height: 700px; */
+    /* border: 5px solid black; */
+    /* padding-top: 100px; */
+    /* padding: 100px; */
+  }
+  #circle-text {
+    font-weight: bolder;
+    padding: 70px 0px;
+    background-color: grey;
+    border: 5px solid green;
+    border-radius: 50%;
+    width: 350px;
+    height: 200px;
+  }
+  .register-here {
+    background-color: white;
+    border: 10px dashed red;
+    margin-left: 50px;
+    width: 500px;
+    height: 700px;
+  }
+  #form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+  }
+  label {
+    color: red;
+    font-size: 20px;
+  }
+  input {
+    text-align: center;
+  }
+  .menu {
+    border-bottom: 1px outset grey;
+    height: 150px;
+    text-align: center;
+  }
+  .menu-text {
+    border: 10px solid red;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    width: 600px;
+    /* text-align: center; */
+    font-size: 50px;
+    /* padding: 0px 0px; */
+    margin: 30px 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .items {
+    padding: 30px;
+    background-color: cyan;
+    border: 2px solid green;
+    width: 300px;
+    font-weight: bolder;
+    color: rgb(82, 8, 151);
+    margin: 30px 30px 0px 30px;
+    border-radius: 20px;
+    height: 180px;
+  }
+  .item-title {
+    font-size: 40px;
+  }
+  .menu-hr {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+  .last-item {
+    height: 230px;
+  }

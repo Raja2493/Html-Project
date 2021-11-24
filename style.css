@@ -17,3 +17,15 @@ p{
     letter-spacing: 10px;
 
 }
+.welcomebox{
+    border: 5px solid red;
+    background-color: black;
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 20px;
+    width: 15%;
+    height: 50px;
+    margin: 20px;
+}

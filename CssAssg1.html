@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assg1</title>
+    <style>
+        #heading{
+            color: red;
+            font-weight: bolder;
+            
+        }
+        .sub-heading{
+            color: red;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 20px;
+
+        }
+        /* p{
+            color: red;
+            font-weight: 600;
+            font-size: 20px;
+            font-style: italic;
+        } */
+        ol{
+            color: brown;
+            font-weight: 500;
+            line-height: 40px;
+
+        }
+        /* .addition{
+            font-style: italic;
+            font color: red;
+            font-weight: 900;
+        } */
+        .addition{
+            font-style: italic;
+            font-weight: 900;
+            color: red;
+            font-size: 20px;
+        }
+        .bg{
+            background-color: yellow;
+            font-weight: bolder;
+
+        }
+        .when{
+            color: brown;
+            font-size: 16px;
+            
+        }
+        .external{
+            font-style: italic; text-decoration-line: underline;
+        }
+        .list-styling{
+            color: sienna;
+            letter-spacing: 2px;
+
+        }
+        .selectors{
+            color: brown;
+            font-size: 16px;
+
+        }
+        .prep-link{
+            background-color: yellow;
+            font-style: italic;
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="heading">This is First CSS Assignment</h2><hr>
+    <p class="sub-heading">What is CSS?</p>
+    <ol class="line-spacing"  type="1" start="1">
+        <li class="f-f">CSS stands for Cascading styling sheet</li>
+        <li>CSS describes how HTML elements are to be displayed on screen,paper or in the media.</li>
+        <li>
+        <span style="text-decoration: line-through; font-weight: 700;">CSS is not necessary</span> 
+        <span style="background-color: yellow; font-weight: bold; letter-spacing: -1px;">CSS saves a lot of work</span>.It can control the layout of multiple web pages.</li>
+        
+        <li class="external" >External style sheets are stored in CSS files.</li>
+    </ol>
+    <p class="addition">CSS can added to HTML documents in 3 ways:</p>
+    <ul class="list-styling">
+        <li>Inline - by using the style attribute inside the html element</li>
+        <li>Ixternal - by using a style element in the head section</li>
+        <li>External - by using a link element to link to an external css file</li>
+        <li>the most common way to add css , is to keep the styles in external css files. However, <span class="bg">in this tutorial we will use inline and internal styles,</span>because it is easier to try and to demonstrate.</li>
+    </ul> 
+<p class="when">
+    When comparing CSS class vs ID, the difference is that CSS class applies a style to one unique element. ID is also special in that you can use a special URL to link directly to an element and its used by JS.  
+</p>
+<p class="selectors">
+    There is a wide range of selectors available. Two of the most commonly used are class and ID. Both are used to target elements to which a style should be applied. 
+</p>
+<span class="prep-link">
+<a href ="https://www.prepbytes.com/">prepbytes Home</a></span>
+</body>
+</html> 
