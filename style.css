@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: green;
 }
 p{
@@ -28,4 +28,26 @@ p{
     width: 15%;
     height: 50px;
     margin: 20px;
+} */
+
+.box{
+    height: 150px;
+    width: ;
+    border: ;
+    margin: ;
+    padding: ;
+    font-size: ;
+    display: inline-block;
+}
+.box1{
+    background-color: aqua;
+
+}
+.box2{
+    background-color: ;
+
+}
+.box3{
+    background-color: ;
+
 }

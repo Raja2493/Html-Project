@@ -1,0 +1,137 @@
+.welcome-text {
+    border: 5px solid red;
+    text-align: center;
+    margin: 0px;
+    width: 300px;
+    line-height: 35px;
+    font-style: italic;
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: white;
+    font-weight: 900;
+    color: maroon;
+    position: relative;
+    left: 30%;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px maroon;
+    box-shadow: 5px 5px #3a4792be;
+  }
+  body {
+    background-color: grey;
+  }
+  .main-body {
+    border: 10px solid maroon;
+    padding: 5px;
+    height: 700px;
+  }
+  .box {
+    border: 7px solid red;
+    width: 234px;
+    background-color: white;
+    height: 250px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 5px 5px #3a4792be;
+  }
+  .image {
+    position: absolute;
+    left: 75%;
+    top: 33%;
+    text-align: center;
+  }
+  .image-grocery {
+    margin-top: 50px;
+    border: 2px solid black;
+  }
+  .address {
+    position: absolute;
+    top: 33%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 55px;
+    font-weight: bolder;
+  }
+  .address-text {
+    margin-top: 10px;
+  }
+  .third {
+    position: absolute;
+    top: 95%;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px black;
+  }
+  .fourth {
+    position: absolute;
+    text-align: center;
+    left: 75%;
+    top: 95%;
+  }
+  .rate-input {
+    text-align: center;
+  }
+  .submit-input {
+    background-color: red;
+    border-radius: 25px;
+  }
+  .last {
+    width: 700px;
+    background-color: green;
+    border: 10px solid rgba(0, 28, 59, 0.911);
+    text-align: center;
+    margin-left: 318px;
+  }
+  .items {
+    width: 345px;
+    height: 260px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: lightsalmon;
+    line-height: 30px;
+    font-style: italic;
+  }
+  .fruits {
+    position: relative;
+    top: -30px;
+    left: 0px;
+  }
+  .veg {
+    position: relative;
+    right: 0px;
+  }
+  .other {
+    position: relative;
+    left: 1px;
+    top: -20px;
+    width: 707px;
+  }
+  .line {
+    border-bottom: 1px solid skyblue;
+    margin: 0px 3px;
+  }
+  .offer-sticky {
+    border: 7px solid rgb(231, 2, 2);
+    background-color: rgb(156, 233, 79);
+    border-radius: 15px;
+    width: 500px;
+    height: 80px;
+    position: fixed;
+    top: 480px;
+    left: 380px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(177, 0, 0);
+    box-shadow: 5px 5px #3a4792be;
+  }
+  .left {
+    float: left;
+    width: 300px;
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: bolder;
+  }
+  .right {
+    font-size: 20px;
+    padding-top: 18px;
+    font-weight: bold;
+  }
